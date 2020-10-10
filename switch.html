@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        /*program to display weekday by accepting week-day number using switch-case*/
+        function func(){
+            var days = document.getElementById("switch").value
+            switch(days){
+                case '1':
+                    alert("sunday");
+                    break;
+
+                case '2':
+                    alert("monday");
+                    break;
+
+                case '3':
+                    alert("tuesday");
+                    break;
+
+                case '4':
+                    alert("wednesday");
+                    break;
+
+                case '5':
+                    alert("thursday");
+                    break;
+
+                case '6':
+                    alert("friday");
+                    break;
+
+                case '7':
+                    alert("saturday");
+                    break;
+
+                default:
+                    alert("you have entered wrong input");
+                    break;
+            }
+        }
+    </script>
+<!--<script>
+/*program to display weekday by accepting week-day as a string using switch-case*/
+function func(){
+    var days = document.getElementById("switch").value
+    switch(days){
+        case 'orange':
+            alert("sunday");
+            break;
+
+        case 'banana':
+            alert("monday");
+            break;
+
+        case 'apple':
+            alert("tuesday");
+            break;
+
+        case 'mango':
+            alert("wednesday");
+            break;
+
+        case 'grapes':
+            alert("thursday");
+            break;
+
+        case 'pappaya':
+            alert("friday");
+            break;
+
+        case 'watermelon':
+            alert("saturday");
+            break;
+
+        default:
+            alert("you have entered wrong input");
+            break;
+    }
+}
+</script>-->
+</head>
+<body>
+    value:<input type = "value" id = "switch"><br><br>
+    <button id = "btn1" onclick = "func()">click</button>
+</body>
+</html>
